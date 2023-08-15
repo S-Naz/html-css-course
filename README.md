@@ -2,60 +2,36 @@
 
 This repo contains starter files and final code for all sections and projects contained in the course.
 
-Use starter code to start each section, and **final code to compare it with your own code whenever something doesn't work**!
+## VS Code setup used in the course
 
-👇 **_Please read the following Frequently Asked Questions (FAQ) carefully before starting the course_** 👇
+I show how to set up VS Code with these themes, extensions and settings in the first section of the course, in lectures **Setting Up Our Code Editor** and **Installing Additional VS Code Extensions**. But for your convenience, here is a quick list of everything you need in order to set up VS Code to follow the course.
 
-## FAQ
+### Theme
 
-### Q1: How do I download the files?
+I use the `One Monokai` in all the course videos. This is a free theme, similar to my personal favourite Monokai Pro. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
-**A:** If you're new to GitHub and just want to download the entire code, hit the green button saying "Code", and then choose the "Download ZIP" option. If you can't see the button (on mobile), use [this link](https://github.com/jonasschmedtmann/html-css-course/archive/master.zip) instead.
+### Extensions
 
-### Q2: I'm stuck! Where do I get help?
+`Auto Close Tag` to automatically close HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-**A:** Have you actually tried to fix the problem on your own? Have you compared your code to the final code? If you failed fixing your problem, please **post a detailed description of the problem to the Q&A area of that video over at Udemy**, along with a [codepen](https://codepen.io/pen/) containing your code. You will get help there.
+`Auto Rename Tag` to automatically update matching HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-### Q3: What VSCode theme are you using? What about extensions and settings?
+`Color Highlight` to highlight colors in CSS code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
-**A:** I use [One Monokai](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) in this course. [Here is the complete VS Code setup for this course](vscode-setup.md).
+`Image Preview` to display an image preview next to the code [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 
-### Q4: Can I see the final version of the Omnifood project?
+`Prettier` to automatically format code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-**A:** Sure! Here you go: [Omnifood](https://www.omnifood.dev).
+`Live Server` to create a live preview for the current project. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-### Q5: Where can I find the coding challenge solutions?
+### Settings
 
-**A:** They are all on codepen, in [this collection](https://codepen.io/collection/7b5e288cb64df1ecc5da8d7a0e78c007?grid_type=list).
+`Auto Save` set to `onFocusChange`, to automatically save files
 
-### Q6: Where is the resources page you keep mentioning?
+`Default Formatter` set to `Prettier - Code formatter (esbnp.prettier-vscode)`, to enable the Prettier extension to format our code
 
-**A:** It's on my website at <https://codingheroes.io/resources>. You can subscribe for updates 😉
+`Format on Save` set to `true`, to have Prettier format our code each time we save it
 
-### Q7: Videos don't load, can you fix it?
+`Word Wrap` set to `on`, to avoid vertical scrollbars for long content
 
-**A:** Unfortunately, there is nothing I can do about it. The course is hosted on Udemy, and sometimes they have technical issues like this. Please just come back a bit later or [contact their support team](https://support.udemy.com/hc/en-us).
-
-### Q8: Videos are blurred / have low quality, can you fix it?
-
-**A:** Please open video settings and change the quality from 'Auto' to another value, for example 720p. If that doesn't help, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
-
-### Q9: I want to put these projects in my portfolio. Is that allowed?
-
-**A:** Absolutely! Just make sure you actually built them yourself by following the course, and that you understand what you did. What is **not allowed** is that you create your own course/videos/articles based on this course's content!
-
-### Q10: I love your courses and want to get updates on new courses. How?
-
-**A:** First, you can subscribe to my email list [at my website](http://codingheroes.io/resources). Plus, I make important announcements on twitter [@jonasschmedtman](https://twitter.com/jonasschmedtman), so you should definitely follow me there 🔥
-
-### Q11: How do I get my certificate of completion?
-
-**A:** A certificate of completion is provided by Udemy after you complete 100% of the course. After completing the course, just click on the "Your progress" indicator in the top right-hand corner of the course page. If you want to change your name on the certificate, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
-
-### Q12: Can you add subtitles in my language?
-
-**A:** No. I provide professional English captions, but Udemy is responsible for subtitles in all other languages (automatic translations). So please [contact the Udemy support team](https://support.udemy.com/hc/en-us) to request your own language.
-
-### Q13: Do you accept pull requests?
-
-**A:** No, for the simple reason that I want this repository to contain the _exact_ same code that is shown in the videos. However, please feel free to add an issue if you found one.
+`Tab Size` set to `2`, for better code readability
